@@ -3,7 +3,7 @@ import pygame
 from config import VIDEO_PATH
 
 """
-Принцип работы кнопки story, где идёт кастцена
+Принцип работы кнопки story, где идёт кастценаS
 """
 
 class Video:
@@ -23,7 +23,7 @@ class Video:
         sounda = pygame.mixer.Sound("sound/story.mp3")
         sounda.play()
         while success:
-            clock.tick(120)
+            clock.tick(30)
             success, img = cap.read()
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
