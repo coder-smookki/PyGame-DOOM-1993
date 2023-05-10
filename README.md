@@ -14,7 +14,7 @@
 <div id="header" align="center">
   
   <h4>
-    Ильин Кирилл (Teamlead | Backend | Frontend | Data Science)
+    Ильин Кирилл (Backend | Frontend | Data Science)
   </h4>
   
 - _Распределение обязанностей и выполнение своих целей_
