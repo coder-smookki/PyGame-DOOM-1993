@@ -1,11 +1,11 @@
 import collections
 import pygame.time
-from config import *
-from load_image import load_image
-from point import Point
-from ray import Ray
-from sound import SpritesSound
-from utils import get_distance, world_pos2cell, compare_deque, world_pos2tile, angle_between_vectors
+from game.core.config import *
+from game.visual.load_image import load_image
+from game.map.point import Point
+from game.core.ray import Ray
+from game.sound.sound import SpritesSound
+from game.utils.utils import get_distance, world_pos2cell, compare_deque, world_pos2tile, angle_between_vectors
 
 
 """

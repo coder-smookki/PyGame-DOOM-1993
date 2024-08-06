@@ -1,9 +1,9 @@
 import collections
 import os
 import pygame
-from config import *
-from load_image import load_image
-from sound import GunSound
+from game.core.config import *
+from game.visual.load_image import load_image
+from game.sound.sound import GunSound
 
 """
 Идёт принцип работы оружия

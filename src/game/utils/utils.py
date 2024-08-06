@@ -1,7 +1,7 @@
 import math
 import numba
 import numpy
-from config import TILE
+from game.core.config import TILE
 
 """
 Утилиты в ходе игры по типу (Если у игрока, здоровье меньше или равно 0, то возвращать True при котором

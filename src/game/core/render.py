@@ -1,11 +1,11 @@
 from copy import deepcopy
 import pygame
-from config import *
-from hit import RayCastHit, SpriteHit
-from load_image import load_image
-from ray_casting import ray_casting, sprites_ray_casting
-from sprite import InteractiveSprite
-from utils import world_pos2cell
+from game.core.config import *
+from game.visual.hit import RayCastHit, SpriteHit
+from game.visual.load_image import load_image
+from game.core.ray_casting import ray_casting, sprites_ray_casting
+from game.core.sprite import InteractiveSprite
+from game.utils.utils import world_pos2cell
 
 
 """

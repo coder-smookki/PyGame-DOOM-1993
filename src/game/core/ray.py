@@ -1,8 +1,8 @@
 from typing import Any
-from config import *
-from hit import RayCastHit
-from point import Point
-from utils import world_pos2tile
+from game.core.config import *
+from game.visual.hit import RayCastHit
+from game.map.point import Point
+from game.utils.utils import world_pos2tile
 
 """
 Реализация 2.5D эффекта

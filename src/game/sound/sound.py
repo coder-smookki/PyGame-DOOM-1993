@@ -1,6 +1,6 @@
 import random
 import pygame
-from config import *
+from game.core.config import *
 
 
 """

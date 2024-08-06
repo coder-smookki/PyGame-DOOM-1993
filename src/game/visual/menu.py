@@ -1,13 +1,13 @@
 import random
 import sys
 import pygame
-from arcade import Arcade
-from config import *
-from load_image import load_image
-from load_level import load_level
-from mode import Modes
-from sound import MenuMusic, SoundEffect
-from story import Video
+from game.map.arcade import Arcade
+from game.core.config import *
+from game.visual.load_image import load_image
+from game.map.load_level import load_level
+from game.map.mode import Modes
+from game.sound.sound import MenuMusic, SoundEffect
+from game.visual.story import Video
 
 """Принцип работы Меню и взаимодействие со всеми кнопками которые присутствуют там"""
 

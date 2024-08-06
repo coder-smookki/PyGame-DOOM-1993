@@ -1,8 +1,8 @@
 import os
 import random
 from copy import deepcopy
-from config import *
-from utils import world_pos2cell
+from game.core.config import *
+from game.utils.utils import world_pos2cell
 
 """
 Прописан класс Arcade, который отвечает за мод в игре.

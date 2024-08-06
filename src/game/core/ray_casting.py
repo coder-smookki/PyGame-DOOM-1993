@@ -1,9 +1,9 @@
-from config import *
-from hit import SpriteHit
-from point import Point
-from ray import Ray, RayCastHit
-from sprite import StaticSprite
-from utils import get_distance
+from game.core.config import *
+from game.visual.hit import SpriteHit
+from game.map.point import Point
+from game.core.ray import Ray, RayCastHit
+from game.core.sprite import StaticSprite
+from game.utils.utils import get_distance
 
 """
 Коллизия и видимость текстур

@@ -2,9 +2,9 @@ import collections
 import random
 import sys
 import pygame
-from config import *
-from load_image import load_image
-from menu import button
+from game.core.config import *
+from game.visual.load_image import load_image
+from game.visual.menu import button
 
 """
 Окно с результатом и концовка

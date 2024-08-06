@@ -7,7 +7,7 @@ import os
 
 
 def load_level(filename):
-    filename = os.path.join('Levels', filename)
+    filename = os.path.join('src/content/levels', filename)
     level_map = []
     if os.path.exists(filename):
         with open(filename, 'r') as mapFile:

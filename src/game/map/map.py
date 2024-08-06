@@ -1,4 +1,4 @@
-from config import *
+from game.core.config import *
 
 """Создание карты и мини карты"""
 
